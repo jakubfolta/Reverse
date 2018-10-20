@@ -6,4 +6,3 @@ def reverse(text): #function which will return entered characters in reverse
  
 print (reverse('fs&5!?'))
 
-
