@@ -14,3 +14,10 @@ def printInReverse(text):
   return revword
 
 print(printInReverse('kdhteuiofgo'))
+
+
+def printInReverse(text):
+  newWord = ''
+  for x in text:
+    newWord = x + newWord
+  return newWord
