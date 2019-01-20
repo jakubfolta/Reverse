@@ -23,3 +23,9 @@ def printInReverse(text):
   return newWord
 
 print(printInReverse('abecadlo'))
+
+
+def printInReverse(text):
+  newWord = ''
+  for x in range(1, len(text) + 1):
+    newWord += text[len(text)] 
