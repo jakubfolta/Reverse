@@ -14,3 +14,20 @@ def writeInReverse(text):
   return reversedWord
 
 print(writeInReverse('MonthyPython'))
+
+def displayInReverse(text):
+  newWord = ''
+  for x in text:
+    newWord = x + newWord
+  return newWord
+
+print(displayInReverse('PythonMonty'))
+
+def displayInReverse(text):
+  newWord = ''
+  for x in range(1, len(text) + 1):
+    newWord += text[len(text) - x]
+  return newWord
+
+print(displayInReverse('MonthyPython'))
+  
