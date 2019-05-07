@@ -1,6 +1,5 @@
 def reverse(text):
     text = text.split('_')
-    print(text)
     new_word = ''
     for item in text:
         for x in range(1, len(item) + 1):
